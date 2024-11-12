@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * @author Jerry Lee (oldratlee at gmail dot com)
- *
+
  *
     这段代码展示了一个典型的竞态条件问题，即组合状态不一致的问题。
     CombinationStatTask 线程检查两个变量 state1 和 state2 的组合状态， 但由于数据竞争，组合状态可能出现不一致的情况。
